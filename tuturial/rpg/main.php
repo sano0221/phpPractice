@@ -7,5 +7,7 @@ require_once dirname(__FILE__) . '/class/Monster.php';
 
 //インスタンス化
 $human = new Human("Kaito", 100, 30);
-$monster = new Monster("Slime", 50, 10);
+$enemy = new Monster("Slime", 50, 10);
 
+$human->Attack();
+echo $enemy->getName() . "は"　. $human->getAttackPoint() . "のダメージを受けた。"  ßß
