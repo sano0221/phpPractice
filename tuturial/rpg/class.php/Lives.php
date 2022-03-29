@@ -28,5 +28,3 @@ class Lives
         echo $this->getName() . "は攻撃した。";
     }
 }
-
-
